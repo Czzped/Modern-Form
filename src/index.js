@@ -1,3 +1,5 @@
+import './styles/style.css'
+
 const inputs = document.querySelectorAll('.inputsAreas')
 const root = document.querySelector(':root')
 const claimButton = document.getElementById('claimButton').addEventListener('click', () => {
