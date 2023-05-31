@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
     <link rel="stylesheet" href="./styles/style.css">
     <title>Mordern Form</title>
 </head>
@@ -22,13 +23,12 @@
                     <b>Try it free 7 days</b>then %20/mo.<b>thereater</b>
                 </span>
                 <span class="bottomRighttWrapperSection">
-                    <input type="text" class="inputsAreas" name="name" placeholder="First Name"
-                        class="inputsBottomRighttWrapperSection">
-                    <input type="text" class="inputsAreas" name="lastName" placeholder="Last Name"
-                        class="inputsBottomRighttWrapperSection">
-                    <input type="email" class="inputsAreas" name="Email" placeholder="Email Address">
-                    <input type="password" class="inputsAreas" name="Password" placeholder="Password">
-                    <input type="button" value="CLAIM YOUR FREE TRIAL" class="claimBottomRighttWrapperSection">
+                    <input type="text" class="inputsAreas" placeholder="First Name" data-isEmpty="yes">
+                    <input type="text" class="inputsAreas" placeholder="Last Name" data-isEmpty="yes">
+                    <input type="email" class="inputsAreas" placeholder="Email Address" data-isEmpty="yes">
+                    <input type="password" class="inputsAreas" placeholder="Password" data-isEmpty="yes">
+                    <input type="button" value="CLAIM YOUR FREE TRIAL" class="claimBottomRighttWrapperSection"
+                        id="claimButton">
                     <p class="termsOfServiceMessage">By clicking the button, your are agreeing with our <b>Terms and
                             Service</b></p>
                 </span>

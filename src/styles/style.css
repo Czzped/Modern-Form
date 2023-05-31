@@ -21,6 +21,7 @@
     ---bg-color: #FF7B7D;
     ---shadow-color: #FB676B;
     ---claim-button-shadow: #009F73;
+    ---erro-border: #ff0004;
 }
 
 .container {
@@ -164,7 +165,7 @@ sections {
 .termsOfServiceMessage>b {
     cursor: pointer;
 
-    color: red;
+    color: var(---erro-border);
 }
 
 footer {
